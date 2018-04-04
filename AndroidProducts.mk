@@ -17,3 +17,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_galen_tab.mk \
     $(LOCAL_DIR)/lineage_galen_tab.mk
+
+COMMON_LUNCH_CHOICES := \
+    full_galen_tab-eng \
+    full_galen_tab-user \
+    full_galen_tab-userdebug \
+    lineage_galen_tab-eng \
+    lineage_galen_tab-user \
+    lineage_galen_tab-userdebug
