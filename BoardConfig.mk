@@ -15,3 +15,6 @@
 #
 
 include device/nvidia/galen/BoardConfig.mk
+
+# Fingerprint override
+BUILD_FINGERPRINT := NVIDIA/galen/galen:9/PPR1.180610.011/4199437_1739.5219:user/release-keys
