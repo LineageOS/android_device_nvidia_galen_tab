@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for galen_tab.
-$(call inherit-product, device/nvidia/galen/lineage.mk)
+include device/nvidia/galen/lineage.mk
 $(call inherit-product, device/nvidia/galen_tab/full_galen_tab.mk)
 
 PRODUCT_NAME := lineage_galen_tab
